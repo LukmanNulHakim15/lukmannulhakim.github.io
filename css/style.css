@@ -1,0 +1,229 @@
+/* Step 1 membuat style guide */
+
+:root {
+    --WarnaUtama : #252734;
+    --WarnaKedua : #333646;
+    --Warnahuruf : #ff9100;
+}
+
+body {
+    background-color: var(--WarnaUtama);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+/* Start Navbar */
+.nav-link.active {
+    color: var(--Warnahuruf) !important ;
+    /* !important yang memiliki arti sangat penting, jadi css akan menggunakannya untuk menggantikan default */
+    font-weight: 700;
+    /* fungsi tag font-weight untuk ketebalan sama halnya seperti bolt */
+}
+
+.navbar-background{
+    background-color: var(--WarnaKedua) !important;
+    z-index: 10; 
+    transition: .5s;
+    /* z-index: ; berfungsi untuk menaikkan dimensi dari keseluruhan konten */
+}
+/* End Navbar */
+
+/* Start Hero */
+
+.WarnaTulisan{
+    color: var(--Warnahuruf);
+}
+
+#hero {
+    color: #fff;
+    min-height: 100vh;
+    padding-top: 100PX;
+}
+
+#hero h1 {
+    font-weight: 700;
+}
+
+#hero h2 {
+    font-weight: 300;
+}
+
+#hero p {
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/* Start Button Custom */
+
+.btn-custom {
+    background-color: var(--Warnahuruf);
+    text-align: center;
+    color: #fff;
+    min-width: 130px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.btn-custom:hover {
+    box-shadow: 0 0 5px rgba(255, 166, 0, 0.8);
+}
+
+/* Finish Button Custom */
+
+/* Start Link Download */
+
+.CV {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+/* Finish Link Download */
+
+
+/* Start Foto */
+
+.Foto {
+    margin-left: 100px;
+}
+
+/* Finish Hero */
+
+/* About */
+hr {
+    width: 35%;
+    height:5px;
+    color: var(--Warnahuruf);
+    margin: 0 auto;
+}
+
+#about {
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--WarnaKedua);
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 30px;
+
+}
+
+#about .P1 {
+    margin-top: -50px;
+}
+/* End About */
+
+/* Start Skills */
+#skill {
+    min-height: 300px;
+    width: 100%;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80;
+    margin-bottom: 90px;  
+}
+
+#skill .card {
+	
+	height: 700px;
+	/* grid-column: span 3; */
+	margin: 10px 0;
+	border-radius: 15px;
+	box-shadow: 0 10px 10px rgba(0,0,0,.1);
+    background-color: #414558;
+}
+
+#skill .Foto2 {
+    margin: 50px;
+    width: 80px;
+}
+
+
+
+#skill .Foto{
+    width: 200px;
+    height: 200px;
+   
+	
+}
+
+#skill .Isi{
+    color: var(--Warnahuruf);
+    text-align: left;
+    font-family:'ubuntu', sans-serif;
+}
+
+#skill .card:hover{
+    background-color:var(--WarnaKedua);
+}
+
+/* End Skill */
+
+
+/* Start Sertifikat */
+hr{
+    width: 35%;
+    height: 5px;
+    color: var(--Warnahuruf);
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+#sertifikat h1 {
+    margin-top: 200px;
+}
+
+#sertifikat {
+    margin-top: -270px;
+    width: 100%;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    margin-bottom: 50px;
+    background-color: var(--WarnaKedua);
+}
+
+#sertifikat .FotoSertifikat{
+    width: 100px;
+}
+
+#sertifikat a{
+    color: white;
+    text-align: center;
+}
+#sertifikat a:hover{
+    color:var(--Warnahuruf);
+    
+}
+
+#sertifikat img{
+    width: 400px;
+    margin-top: 30px;
+    margin-right: 30px;
+    height: 400px;
+    padding: 10px;
+}
+/* End Sertifikat */
+
+/* Start Footer */
+#footer {
+    min-height: 300px;
+    width: 100%;
+    color: #fff;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+   
+}
+
+#footer a  {
+    color:#fff;
+}
+
+#footer a:hover {
+    color: var(--Warnahuruf);
+}
+
+
+/* End Footer */

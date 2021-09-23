@@ -1,0 +1,80 @@
+/* Untuk layar dekstop */
+@media screen and (max-width : 1200px) { 
+    #hero p {
+        font-size: .8rem;
+    }
+    #hero h1{
+        font-size: 1.8rem;
+    }
+
+    #hero h2 {
+        text-align: left;
+    }
+    #hero img {
+        padding-left: 20px;
+    }
+    
+    #skill .card {
+        font-size: 15px;
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+        margin-bottom: 20px !important;
+
+    }
+
+    #skill .card3 {
+        height: auto;
+    }
+
+    #skill .card2 {
+        height: auto;
+    }
+    #skill .card1 {
+        height: auto;
+    }
+
+  }
+
+
+/* Untuk layar tablet */
+@media screen and (max-width : 800px) {
+    #hero img {
+        width: 60%;
+    }
+    #hero .row{
+        padding-bottom: 80px;
+        position: relative;
+    }
+    /* .social-icon{
+        left: 50%;
+        transform: translate(-50%);
+        
+    } */
+
+    #hero .btn-custom{
+        width: 80%;
+    }
+
+    #about p {
+        text-align: justify !important;
+    }
+    #hero {
+        min-height: 400px;
+    }
+
+   
+
+
+}
+
+/* Untuk layar hp dengan posisi landscape */
+/* @media screen and (max-width : 576px) {
+  
+
+  
+
+  
+}
+
+/* Untuk layar hp dengan posisi potret */
+ 
